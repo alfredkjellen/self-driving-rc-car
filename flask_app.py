@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from car_control import go_forward, go_backward, turn_right, turn_left
+from raspberry_pi_remote_controller import go_forward, go_backward, turn_right, turn_left
 import time
 
 app = Flask(__name__)
